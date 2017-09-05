@@ -1,0 +1,61 @@
+#hero-image {
+    
+    background-image: url(../assets/color-full.png);
+    background-repeat: no-repeat;
+    height:855px;
+     width:3005px;
+}
+
+.flex-container {
+    
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav  {
+    display: block;
+    
+}
+span {
+    margin-right:75px;
+}
+
+body {
+    
+    font-family: canada-type-gibson, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    color:#D45D2C;
+    text-align:center;
+    margin:auto;
+    
+}
+
+a {
+    
+color:inherit;
+}
+
+header {
+    border-bottom: 1px solid #EB662F;
+  
+}
+
+.call-to-action {
+    margin-left:30px;
+}
+
+div {
+    display:block;
+}
+.main {
+          margin:auto;
+    padding-top:70px;
+}
+
+html {
+    background-color:cornsilk;
+}
+

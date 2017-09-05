@@ -3,7 +3,11 @@
     background-image: url(../assets/color-full.png);
     background-repeat: no-repeat;
     height:855px;
-     width:3005px;
+    width:1600px;
+    margin:auto;
+    padding-top:60px;
+    padding-bottom:60px;
+    border-bottom: 1px solid #EB662F;
 }
 
 .flex-container {
@@ -40,6 +44,8 @@ color:inherit;
 
 header {
     border-bottom: 1px solid #EB662F;
+    height:100px;
+    
   
 }
 
@@ -51,11 +57,32 @@ div {
     display:block;
 }
 .main {
-          margin:auto;
-    padding-top:70px;
+        width:100%
+        padding-top:70px;
 }
 
 html {
     background-color:cornsilk;
 }
 
+h1 {
+    font-size:5rem;
+}
+
+#about-us {
+    
+    padding-top:25px;
+    width:50%;
+    margin:auto;
+    border-bottom: 1px solid #EB662F;
+    padding-bottom:40px;
+}
+
+#about-us p {
+    padding-top:25px;
+    
+}
+
+#events {
+     padding-top:25px;
+}

@@ -10,7 +10,8 @@
     border-bottom: 1px solid #EB662F;
 }
 
-.flex-container {
+
+header {
     
     display:flex;
     justify-content:space-between;
@@ -21,7 +22,8 @@
     display: block;
     
 }
-span {
+
+.nav span {
     margin-right:75px;
 }
 
@@ -33,7 +35,7 @@ body {
     font-size:20px;
     color:#D45D2C;
     text-align:center;
-    margin:auto;
+    
     
 }
 
@@ -57,8 +59,9 @@ div {
     display:block;
 }
 .main {
-        width:100%
+        width:66%
         padding-top:70px;
+    
 }
 
 html {
@@ -87,3 +90,17 @@ h1 {
 #events {
      padding-top:25px;
 }
+
+.gallery-item img {
+    height:300px;
+    display:block;
+    padding:45px;
+}
+
+#event-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+

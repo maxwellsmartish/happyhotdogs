@@ -1,32 +1,7 @@
-#hero-image {
-    
-    background-image: url(../assets/color-full.png);
-    background-repeat: no-repeat;
-    height:855px;
-    width:1600px;
-    margin:auto;
-    padding-top:60px;
-    padding-bottom:60px;
-    border-bottom: 1px solid #EB662F;
+/* Global Styles  */
+html {
+    background-color:cornsilk;
 }
-
-
-header {
-    
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-}
-
-.nav  {
-    display: block;
-    
-}
-
-.nav span {
-    margin-right:75px;
-}
-
 body {
     
     font-family: canada-type-gibson, sans-serif;
@@ -38,69 +13,114 @@ body {
     
     
 }
-
 a {
     
 color:inherit;
 }
-
-header {
-    border-bottom: 1px solid #EB662F;
-    height:100px;
-    
-  
-}
-
-.call-to-action {
-    margin-left:30px;
-}
-
 div {
     display:block;
 }
-.main {
-        width:66%
-        padding-top:70px;
-    
+p {
+    font-size: 2.5rem;
+    font-weight:200
 }
-
-html {
-    background-color:cornsilk;
-}
-
 h1 {
     font-size:5rem;
     color:inherit;
 }
 
+/* Top to bottom page styles */
+
+header {
+    
+    display:flex;
+    justify-content:space-between;
+    align-items: center; 
+    border-bottom: 2px solid #EB662F;
+    height:100px;
+    
+}
+
+.call-to-action {
+    margin-left:30px;
+}
+.nav  {
+    display: block;
+   
+    
+}
+nav span {
+    margin-right:70px;
+    font-size:2.25rem;}
+.main {
+        width:auto;
+        padding-top:70px;
+    
+}
+#hero-image {
+    
+    background-image: url(../assets/color-full.png);
+    background-repeat: no-repeat;
+    height:855px;
+    width:1600px;
+    margin:auto;
+    padding-top:60px;
+    padding-bottom:60px;
+    border-bottom: 1px solid #EB662F;
+}
 #about-us {
     
     padding-top:25px;
-    width:50%;
+    width:66%;
     margin:auto;
-    border-bottom: 1px solid #EB662F;
-    padding-bottom:40px;
+    border-bottom: 2px solid #EB662F;
+    padding-bottom:70px;
 }
-
 #about-us p {
-    padding-top:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+#about-us h1 {
+    
+   
+    padding-bottom:40px;
     
 }
 
 #events {
      padding-top:25px;
+    border-bottom: 2px solid #EB662F;
+    padding-bottom:40px;
+    margin:auto;
+    width:66%;
 }
-
-.gallery-item img {
-    height:300px;
-    display:block;
-    padding:45px;
+#events h1 {
+     
+    padding-bottom:40px;
 }
-
+#events p {
+    margin:0;
+    padding-bottom:25px;
+}
 #event-gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    margin-bottom:60px;
+    margin-top:60px;
 }
+#event-gallery span {
+            font-size:1.75rem;
+                font-weight:600;
+    }
+.gallery-item img {
+    height:300px;
+    width:200px;
+    display:block;
+    padding:15px;
+    margin:25px 50px 10px 50px;
+}
+
+
+
 

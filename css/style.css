@@ -1,13 +1,14 @@
 /* Global Styles  */
 html {
     background-color:cornsilk;
+    font-size:18px;
 }
 body {
     
     font-family: canada-type-gibson, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size:20px;
+    font-size:1rem;
     color:#D45D2C;
     text-align:center;
     
@@ -25,10 +26,11 @@ p {
     font-weight:200
 }
 h1 {
-    font-size:5rem;
+    font-size:4rem;
     color:inherit;
-}
+    }
 
+h2 {font-size:2rem;}
 /* Top to bottom page styles */
 
 header {
@@ -37,14 +39,15 @@ header {
     justify-content:space-between;
     align-items: center; 
     border-bottom: 2px solid #EB662F;
-    height:100px;
+    height:10rem;
     z-index: 5;
     position:fixed;
-    width:100%
+    width:100%;
+    background-color:cornsilk;
+    top:0px;
 }
-
 .call-to-action {
-    margin-left:30px;
+    margin-left:10rem;
 }
 .nav  {
     display: block;
@@ -52,36 +55,36 @@ header {
     
 }
 nav span {
-    margin-right:70px;
+    margin-right:7rem;
     font-size:2.25rem;}
 .main {
         width:auto;
-        padding-top:70px;
-    z-index:1;
+        padding-top:15rem;
+  
     
 }
 #hero-image {
     
     background-image: url(../assets/color-full.png);
     background-repeat: no-repeat;
-    height:855px;
+    height:55rem;
     width:1600px;
     margin:auto;
-    padding-top:60px;
-    padding-bottom:60px;
+    padding-top:3rem;
+    padding-bottom:3rem;
     border-bottom: 1px solid #EB662F;
 }
 #about-us {
     
-    padding-top:25px;
+    padding-top:3rem;
     width:66%;
     margin:auto;
     border-bottom: 2px solid #EB662F;
-    padding-bottom:70px;
+    padding-bottom:6rem;
 }
 #about-us p {
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:2rem;
+    padding-bottom:.5rem;
 }
 #about-us h1 {
     
@@ -91,9 +94,9 @@ nav span {
 }
 
 #events {
-     padding-top:25px;
+     padding-top:3rem;
     border-bottom: 2px solid #EB662F;
-    padding-bottom:40px;
+   padding-bottom:6rem;
     margin:auto;
     width:66%;
 }
@@ -125,5 +128,26 @@ nav span {
 }
 
 
+#menu {
+     padding-top:3rem;
+    border-bottom: 2px solid #EB662F;
+   padding-bottom:6rem;
+    margin:auto;
+    width:66%;
+}
 
+#contact {
+     padding-top:3rem;
+    border-bottom: 2px solid #EB662F;
+   padding-bottom:6rem;
+    margin:auto;
+    width:66%;
+}
 
+    #footer-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:60px;
+    margin-top:60px;
+    }

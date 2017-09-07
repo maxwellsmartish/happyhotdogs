@@ -38,7 +38,9 @@ header {
     align-items: center; 
     border-bottom: 2px solid #EB662F;
     height:100px;
-    
+    z-index: 5;
+    position:fixed;
+    width:100%
 }
 
 .call-to-action {
@@ -55,6 +57,7 @@ nav span {
 .main {
         width:auto;
         padding-top:70px;
+    z-index:1;
     
 }
 #hero-image {

@@ -9,7 +9,6 @@ body {
     
     font-family: canada-type-gibson, sans-serif;
     font-style: normal;
-    font-weight: 700;
     font-size:1rem;
     color:#E77537;
     text-align:center;
@@ -141,8 +140,25 @@ a:hover{
    padding-bottom:6rem;
     margin:auto;
     width:66%;
+        
+}
+#contact-flex {
+    
+ display:flex;
+    justify-content:space-between;
+    align-items: center; 
+    max-width:960px;
+    margin-top:4rem;
+
+}
+    
+#contact h1 {
+    padding:.5rem;
 }
 
+#contact h2 {
+    font-weight:bold;
+}
     #footer-wrapper {
     display: flex;
     justify-content: center;
@@ -163,4 +179,21 @@ a:hover{
 .phone-us span {
  margin:0 auto;
     font-size:2rem;
+}
+.social img {
+    display:block;
+    margin:auto;
+    padding-bottom:.5rem;
+}
+.social span {
+    font-size:.75rem;
+}
+#left-column {
+    margin-left:15%;
+    padding-right:1rem;
+}
+
+#right-column {
+    margin-right:15%;
+    padding-left:1rem;
 }

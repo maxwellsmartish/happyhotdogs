@@ -43,7 +43,7 @@ header {
     justify-content:space-between;
     align-items: center; 
     border-bottom: 2px solid #EB662F;
-    height:6rem;
+    height:4.5rem;
     z-index: 5;
     position:fixed;
     width:100%;
@@ -57,13 +57,12 @@ header {
     margin-left:10rem;
 }
 
-    
+a:hover{
+    background-color:#EB662F;
+    color:white;
+    opacity:0.3;
 }
-
-nav {
-    
-}
-nav span {
+    nav span {
     margin-right:1rem;
     padding-right:1rem;
     font-size:1.25rem;
@@ -72,30 +71,28 @@ nav span {
 .main {
        max-width:1024px;
         padding-top:1rem;
-        margin:5rem auto 0 auto;
-    
-    
-  
-    
+        margin: 0 auto;
 }
+
 #hero-image {
    background-image: url(../assets/color-full.png);
    background-repeat:no-repeat;
     background-position:center;
     background-size:100%;
     max-width:960px;
-     height:40rem;
-    margin: 0 auto;
-    padding-top:3rem;
-    padding-bottom:.5rem;
-    border-bottom: 2px solid #EB662F;
+    height:30rem;
+    margin: 6rem auto;
+    padding-top:0.5rem;
+    padding-bottom:2rem;
+   
    
 }
+
 #about-us {
     
-    padding-top:1rem;
     width:66%;
-    margin:auto;
+    margin:0 auto;
+     border-top: 2px solid #EB662F;
     border-bottom: 2px solid #EB662F;
     padding-bottom:2rem;
 }
@@ -117,15 +114,16 @@ nav span {
     margin-top:60px;
 }
 #event-gallery span {
-            font-size:1.75rem;
+            font-size:1.25rem;
                 font-weight:600;
     }
+
 .gallery-item img {
     height:300px;
     width:200px;
     display:block;
-    padding:15px;
-    margin:25px 50px 10px 50px;
+    padding:1rem;
+    margin:.5rem;
 }
 
 
@@ -156,6 +154,7 @@ nav span {
 .phone-us {
     padding-top:2em;
     max-width:960px;
+    margin-top:2rem;
     display:flex;
     justify-content: center;
     align-content:space-between;
